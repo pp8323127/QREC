@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>QRCODE電子商務示範網站</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen backgrounds." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="./css/masonry-docs.css" />
+	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+	
+	<style>
+	body{
+		font-family: Microsoft JhengHei;
+	}
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:70px 0 0 0;
+	}
+	.intro p{
+		color: #fff;
+		padding:40px 0 0 0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+		/* Fixed header and footer.
+	* --------------------------------------- */
+	#header{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		background: #337ab7;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 10px 0 0 0;
+	}
+
+	#header{
+		/*top:0px;*/
+		height: 70px;
+		margin-bottom: 20px;
+	}
+
+	#content{
+		padding: 70px 100px 0px 100px;
+	}
+	.item{
+		display: inline-block;
+		float: none;
+		margin: 0px 35px 25px 35px;
+		/*border: 2px solid #ddd;*/
+		box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+		/*border-radius: 10px;*/
+		width: 300px;
+	}
+	.item a{
+		color: #666;
+		line-height: 58px;
+	}
+	#menu{
+		top: inherit;
+		left: inherit;
+	}
+	#menu li a{
+		color: #555;
+	}
+	#menu li{
+		background: rgba(255,255,255,.95);
+	}
+	#footer{
+		position: fixed;
+		bottom: 0px;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+		background: #fff;
+		box-shadow: 0px -11px 8px -20px #eee, 0px -11px 8px -10px #eee;
+	}
+	#footer p{
+		font-size: 14px;
+		color: #ccc;
+	}
+
+
+	.fp-controlArrow.fp-next{
+		border-color: transparent transparent transparent #ddd;
+		border-width: 38.5px 0 38.5px 50px;
+	}
+	.fp-controlArrow.fp-prev{
+		border-color: transparent #ddd transparent transparent;
+		border-width: 38.5px 50px 38.5px 0;
+	}
+
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui.js"></script>
+
+	<script type="text/javascript" src="./js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.masonry.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="./js/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#fff'],
+				scrollOverflow: true
+			}); 
+		});
+	</script>
+
+</head>
+<body>
+<div id="header">
+	<div id="hdmenu">
+		<img src="./images/url.jpg" height="60px;">
+	</div>
+</div>
+
+<div id="fullpage">
+
+	<div class="section" id="section1">
+		<div class="slide" id="slide1">
+			 <div id="content">
+    			<div class="item"><img src="images/download.png" width="300px;">掃描QRcode立即下載安裝</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<p>&copy; Copyright 2015, E508 Lab. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
