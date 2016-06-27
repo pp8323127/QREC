@@ -1,5 +1,6 @@
-<?php session_start();
-	$siteURL = "http://dashboard.dennychen.tw";
+<?php 
+// session_start();
+	$siteURL = "http://163.18.42.209/QREC/Dashboard";
  	require_once("../src/db.php");
 	require_once("../src/Application.Top.php");
 	$sql = "SELECT * from admin where id = '{$_SESSION[admin_id]}'";

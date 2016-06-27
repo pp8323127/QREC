@@ -8,5 +8,5 @@
 $server = 'localhost';
 $username = 'mobile';
 $password = 'e508lab';
-$database = 'qrec';
+$database = 'mobile';
 ?>
