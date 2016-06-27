@@ -1,9 +1,9 @@
 <?php
 	error_reporting(0);	//不顯示提醒
 	$db_server = "localhost";
-	$db_name = "qrec";
-	$db_user = "qrec";
-	$db_passwd = "e508";
+	$db_name = "mobile";
+	$db_user = "mobile";
+	$db_passwd = "e508lab";
 
 	// 原本的
 	// $db_server = "localhost";

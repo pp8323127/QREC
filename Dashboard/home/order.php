@@ -71,7 +71,7 @@
 												<tbody>
 												<!--資料-->
 												<?php
-													$order_sql=fetchQueryAll("select * from qrec.order order by id desc");
+													$order_sql=fetchQueryAll("select * from mobile.order order by id desc");
 													foreach($order_sql as $order){
 														echo "<tr>
 															<td class='center'>{$order[tupdate]}</td>
