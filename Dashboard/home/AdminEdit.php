@@ -58,6 +58,8 @@
 	[ 
 		{acc:"0322806",name:"陳瑋俊",phone:"0987654321",email:"u0322806@nkfust.edu.tw",token:"test123456789"},
 		{acc:"0324813",name:"楊東霖",phone:"0987987987",email:"u0324813@nkfust.edu.tw",token:"test123456789"},
+		{acc:"0424804",name:"莊雲皓",phone:"0987987987",email:"u0424804@nkfust.edu.tw",token:"test123456789"},
+
 	];
 	
 	jQuery(function($) {
@@ -124,7 +126,7 @@
 				}, 0);
 			},
 	
-			editurl: "/order.php",//nothing is saved
+			editurl: "./order.php",//nothing is saved
 			caption: "管理者資料 with jqGrid"
 	
 			//,autowidth: true,
